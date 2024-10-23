@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+        background-color: aqua;
+}
+@media screen and (orientation:portrait) {
+    .container {
+        border-radius: 0px;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .container {
+        border-radius: 20px;
+    }
+}
